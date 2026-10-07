@@ -1,0 +1,50 @@
+[
+    {
+        "ID": 1,
+        "Nombre": "Ana",
+        "Edad": 28,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 2,
+        "Nombre": "Carlos",
+        "Edad": 29,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 3,
+        "Nombre": "Esli",
+        "Edad": 30,
+        "Departamento": "RH"
+    },
+    {
+        "ID": 4,
+        "Nombre": "Amairani",
+        "Edad": 32,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 5,
+        "Nombre": "Jose",
+        "Edad": 27,
+        "Departamento": "Sistemas"
+    },
+    {
+        "ID": 6,
+        "Nombre": "Alejandro",
+        "Edad": 28,
+        "Departamento": "Sistemas"
+    },
+    {
+        "ID": 7,
+        "Nombre": "Juan",
+        "Edad": 32,
+        "Departamento": "Desarrollador"
+    },
+    {
+        "ID": 8,
+        "Nombre": "Carlos",
+        "Edad": 31,
+        "Departamento": "Soporte"
+    }
+]
