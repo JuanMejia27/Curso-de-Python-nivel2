@@ -1,0 +1,23 @@
+#En esta sesion se veran algunos entornos y entornos virtuales
+iniciamos con el comando 
+pip install virtualenv
+#Para activar el entorno
+virtualenv venv #Abrimos el entorno
+.\venv\Scripts\activate #Entramos al entorno
+pip install requests #Se agrega el requests
+deactivate #Para salir del entorno
+
+#Otro entorno que permite multiples entornos esta wrapper
+pip install virtualenvwrapper
+pip install virtualenvwrapper-win
+#crear un nuevo entorno 
+mkvirtualenv mi_entorno
+#Ver el directorio de la carpeta
+lsvirtualenv
+#Activar el entorno
+workon mi_entorno
+#Eliminar el entorno
+rmvirtualenv mi_entorno
+
+conda init
+conda install pandas numpy matplotlib seaborn jupyter

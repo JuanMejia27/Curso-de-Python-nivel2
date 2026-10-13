@@ -1,0 +1,22 @@
+Comandos de pip
+pip --version
+pip install pipenv
+pipenv install
+pipenv install request
+#Entrar en el modo para los paquetes de versiones
+pipenv shell
+exit #Para salir del entorno
+
+#Al entrar en shell
+pipenv 
+pipenv install pytest --dev
+
+#Instalacion de poetry
+Buscar en internet por si se actualiza
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -   
+pip install poetry
+poetry init
+poetry add requests #Revisar la formula de la version por ejemplo requires-python = ">=3.14, <4.0"
+#Activamos con poetry shell, el cual se puede desactivar o salir con exit
+
+Uso de env sirve para bloquear las versiones de los paquetes que se usan en los proyectos
