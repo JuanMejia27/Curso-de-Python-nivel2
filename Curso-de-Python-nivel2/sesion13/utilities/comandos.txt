@@ -1,0 +1,26 @@
+Comandos de python
+python -m venv venv # Para poder crear una carpeta con unas librerias y/o componentes especificos para el mismo proyecto
+
+venv\Scripts\activate # Para activar el uso de los componentes y entrar en modo comando de venv para el uso de dependencias, par instalar paquetes
+
+para instalar usamos
+pip install requests #para actualizar e instalar los componentes 
+pip list # para ver lo que se tiene instalado y sus versiones
+pip install nombre de paquete # Para instalar los paquetes
+pip update nombre o genral # par actualizar en general o un paquete en especifico
+deactivate #Para salir de la opcion de entorno
+pip install numpy # se instala numpy se revisa al finalizar la instalacion del paquete y se desactiva el modo
+
+pip install --upgrade requests / pip install --upgrade numpy # Para la actualizacion general del los recursos
+pip uninstall numpy #para eliminar alguno de los paquetes
+si se desinstallo se debe actualizar antes de realizar algun uodate general la visualizacion de los ya instalado
+
+pip freeze > requirements.txt # Para generar un txt con los requierimientos de librerias instaladas
+
+pip install flask # paquete para desarrollo web
+pip install requirements.txt # Instala todos los paquetes que se tengan generados en un proyecto
+
+Crear una carpeta con comandos gnerales de windosws
+mkdir utilities
+Crear un nuevo archivo de python desde solo comandos
+New-Item -ItemType File -Path utilities/__init__.py

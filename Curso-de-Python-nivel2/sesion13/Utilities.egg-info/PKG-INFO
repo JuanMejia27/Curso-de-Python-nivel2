@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: Utilities
+Version: 0.1
+Summary: Matematicas y String
+Author: Juan Mejia
+Author-email: mi_correo@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary

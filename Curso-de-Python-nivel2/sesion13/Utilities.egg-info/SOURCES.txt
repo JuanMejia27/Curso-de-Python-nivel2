@@ -1,0 +1,10 @@
+setup.py
+Utilities.egg-info/PKG-INFO
+Utilities.egg-info/SOURCES.txt
+Utilities.egg-info/dependency_links.txt
+Utilities.egg-info/top_level.txt
+utilities/__init__.py
+utilities/math_operations.py
+utilities/string_operations.py
+utilities/advanced/__init__.py
+utilities/advanced/calculus.py
