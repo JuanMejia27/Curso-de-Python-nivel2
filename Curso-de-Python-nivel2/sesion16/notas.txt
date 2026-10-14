@@ -1,0 +1,10 @@
+#Uso de Frameworks 
+
+Flask Framework
+abrir ruta para iniciar con el framework
+.\sesion16\Scripts\activate
+
+En la principal se crea el archivo app.py
+
+instalamos Flask
+pip install Flask

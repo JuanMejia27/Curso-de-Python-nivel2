@@ -1,0 +1,18 @@
+Uso de framework DJango
+
+cambiamos a la ruta .\sesion16.1\Scripts\activate
+Instalamos pip install django
+
+iniciamos un proyecto con
+django-admin startproject myproyect
+
+Vamos a la ruta y corremos el archivo del proyecto
+cd .\myproyect\
+python manage.py runserver
+
+se realizan las migraciones
+python manage.py migrate
+python manage.py makemigrations
+
+Regresamos al servidor activo
+python manage.py runserver
