@@ -28,7 +28,7 @@ def create_task():
     tasks.append(new_task)
     return jsonify(new_task), 201
 
-@app.route("/task/<int:task_id", methods = ["PUT"])
+@app.route("/task/<int:task_id>", methods = ["PUT"])
 def update_task(task_id):
     task = next((t for t in tasks if t["id" == task_id]), None)
     if not task:
@@ -36,6 +36,12 @@ def update_task(task_id):
     task["title"] = request.json.get("title", task["title"])
     task["done"] = request.json.get("done", task["done"])
     return jsonify(task)
+
+@app.route("/tasks/<init:task_id>", methods = ["DELETE"])
+def delete_task(task_id):
+    global tasks
+    taks =[t for t in tasks if t["id"] != task_id]
+    return jsonify({"message": "Tarea eliminada"})
 
 if __name__ == "__main__":
     app.run(debug=True)
