@@ -1,0 +1,2 @@
+En este ejercicio se usara PANDAS: DATAFRAMES, SERIES Y MANIPULACIÓN DE DATOS
+asi como el Google Colab para parte de la codificacion
