@@ -1,0 +1,4 @@
+instlacion de selenium
+pip install selenium
+Este trabaja con la version del navegador sea cual sea y se debe identificar la version actual del mismo
+
