@@ -1,0 +1,2 @@
+Ejecutamos el entorno para machine learning
+pip install scikit-learn

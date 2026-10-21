@@ -1,0 +1,2 @@
+Iniciamos con la introduccion a machine learning instalando lo siguiente
+pip install scikit-learn
