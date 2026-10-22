@@ -1,0 +1,6 @@
+VISUALIZACIÓN DE RESULTADOS Y AJUSTE DE HIPERPARÁMETROS BÁSICOS
+Instalamor una libreria
+pip install matplotlib
+
+creamos un archivo de notas para los graficos de google colab, que da las funciones de google colab directamente
+notas.ipynb
