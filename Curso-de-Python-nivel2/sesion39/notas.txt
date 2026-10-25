@@ -1,0 +1,8 @@
+Programacion asyncronicas
+Se instala la libreria  de aiohttp
+pip install aiohttp
+Se instala la libreria  de websockets
+pip install websockets
+
+Al tener ambos archivos ya terminados, se ejecuta el servidor primero en una terminal
+Posteriormente se ejecuta el cliente para que pueda utilizar el servidor
