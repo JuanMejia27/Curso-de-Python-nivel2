@@ -41,7 +41,7 @@ async def main():
 
 asyncio.run(main())'''
 
-import asyncio
+'''import asyncio
 from aiohttp import web
 import aiohttp
 import os 
@@ -68,4 +68,63 @@ async def manejar_peticion(request):
 app = web.Application()
 app.router.add_get('/obtener_datos', manejar_peticion)
 
-web.run_app(app, host='localhost', port=8080)
+web.run_app(app, host='localhost', port=8080)'''
+
+'''import asyncio
+
+async def tarea(id, duracion):
+    print(f"Tarea {id} comenzando")
+    await asyncio.sleep(duracion)
+    print(f"Tarea {id} terminada")
+
+async def main():
+    tareas = [tarea(1,2), tarea(2,3), tarea(3,1)]
+    await asyncio.gather(*tareas)
+
+asyncio.run(main())'''
+
+'''from multiprocessing import Pool
+import time
+
+def calcular_cuadrado(x):
+    time.sleep(1)
+    return x*x
+
+if __name__ == "__main__":
+    datos = [1,2,3,4,5]
+    with Pool(processes=3) as pool:
+        resultados = pool.map(calcular_cuadrado,datos)
+        print("Resultados: ", resultados)'''
+
+import asyncio
+from multiprocessing import Pool
+import random, time
+
+def obtener_recomendacion(usuario_id):
+    time.sleep(1)
+    recomendaciones = [f"Recomencacion {i}" for i in range(5)]
+    return f"usuario {usuario_id}: {random.choice(recomendaciones)}"
+
+async def manejar_solicitud(usuario_id):
+    print(f"Procesando usuario {usuario_id} de forma concurrente...")
+    recomendacion = await asyncio.to_thread(obtener_recomendacion, usuario_id)
+    print(f"Resultado para usuario {usuario_id}: {recomendacion}")
+
+async def main_concurrente():
+    usuarios = [1,2,3,4,5]
+    tareas = [manejar_solicitud(usuario) for usuario in usuarios]
+    await asyncio.gather(*tareas)
+
+
+def main_paralelo():
+    usuarios = [1,2,3,4,5]
+    with Pool(processes=3) as pool:
+        resultados = pool.map(obtener_recomendacion, usuarios)
+        for resultado in resultados:
+            print("Resultado paralelo: ", resultado)
+
+if __name__ == "__main__":
+    print("Ejecutando sistema de recomendacion concurrente...")
+    asyncio.run(main_concurrente())
+    print("\nEjecutando sistema de recomendacion paralelo")
+    main_paralelo()

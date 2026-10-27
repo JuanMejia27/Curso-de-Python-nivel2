@@ -1,4 +1,4 @@
-import asyncio
+'''import asyncio
 import aiohttp
 
 async def hacer_peticion():
@@ -8,4 +8,4 @@ async def hacer_peticion():
             texto = await response.text()
             print(texto)
 
-asyncio.run(hacer_peticion())
+asyncio.run(hacer_peticion())'''
