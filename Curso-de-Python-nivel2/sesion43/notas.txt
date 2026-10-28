@@ -1,0 +1,14 @@
+Sesion44 para documentacion en entornos de desarrollo, ademas de los comentarios dentro del codigo exiten algunos entornos y archivos dentro de los proyectos.
+
+En este caso uno es con SPHINX, el cual se instalara
+pip install sphinx
+en la ruta para la documentacion usamos el codigo en consola igual que el anterior
+sphinx-quickstart
+Esto crea todos los documentos generales de la documentacion
+
+Al tener creados los documentos del mismo vamos al archivo conf.py donde veremos las configuraciones generales
+
+otra de las opciones es pdoc
+el cual instalaremos con pip install pdoc en la ruta principal del proyecto
+usamos el comando pdoc archivo.py 
+para abrir las opciones del mismo de forma grafica abriendo el proyecto como un servidor
