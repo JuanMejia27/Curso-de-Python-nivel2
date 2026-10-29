@@ -1,0 +1,10 @@
+Ejecutamos el comando python -m cProfile ejecutable.py, esto nos da el tiempo en genral de todas las funciones
+En caso de requerir guardar estos datos ejecutar:
+python -m cProfile -o resultados.prof ejecutable.py
+resultados.prof = se refiere al nombre que se le quiera dar al archivo
+
+Instalamos pip install snakeviz, lo cual al ejecutarlo con:
+snakeviz resultados.prof, nos abrira la vista en el navegador de los resultados
+
+instalamos pip install line_profiler
+ejecutamos kernprof -l -v ejecutable.py, lo cual nos muestra los tiempos de cada parte del codigo para optimizar
