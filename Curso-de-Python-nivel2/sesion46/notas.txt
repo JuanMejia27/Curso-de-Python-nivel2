@@ -1,0 +1,11 @@
+Instalamos la libreria de pylint, con pip install pylint
+Corremos pylint ejecutable.py y nos dara una calificacion dependiendo lo que tengamos en el codigo
+
+Instalamos la libreria de pip install flake8, de igual manera ejecutar flake8 ejecutable.py, nos dara las observaciones del codigo
+
+Instalamos la libreria de pip install black
+Quitamos las correcciones previas al archivo y ejecutamos black
+black ejecutable.py y nos regresa el programa ya con el formato basico de espacios y dentacion de codigo, ayuda a dar formato general
+
+Anexando codigo y repasando iniciamos con pylint y flake8, para corregir con black y volver a revisar 
+Con flake8 sale limpio y con pylint pide comentarios
